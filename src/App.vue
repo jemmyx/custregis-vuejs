@@ -13,14 +13,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Registration from './components/Registration.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-	,Registration
+	Registration
   }
 }
 </script>
