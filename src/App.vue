@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Registration 
+		title="PROMO 24 MOIS"
+		header="https://michellebeliveau.com/images/banner.jpg"
+		header2="assets/images/header.jpg"
+		bg="https://sarahmdean.amtamembers.com/amta/assets/spa-black.jpg"
+		bg2="assets/images/bg.jpg"
+		referer="massobeliveau_crm_promo_001"
+		referer2="fitness_crm_promo_001"
+		/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Registration from './components/Registration.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld
+	,Registration
   }
 }
 </script>
@@ -23,6 +32,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
+  
+  
+  
 }
 </style>
